@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sweety food menu </title>
+        <style>
+  
+            body {
+                    margin: 0;
+                    font-family: Arial, sans-serif;
+                    background-color: #000000e1;
+                }
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+        
+                .header {
+                    background-color:#D2691E;
+                    color: #000000e1;
+                    padding: 20px;
+                    text-align: center;
+                }
+        
+                h1 {
+                    font-size: 3rem;
+                    margin: 0;
+                    text-transform: capitalize;
+                }
+        
+                .menu {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin-top: 40px;
+              
+                }
+        
+                .item {
+                    background-color: #D2691E;
+                    box-shadow: 0 5px 4px #fffefe;
+                }
+            
+        
+                .item:hover {
+                    box-shadow: 0 6px 12px #fffdfd;
+                    top: -30px;
+                    transition: all 0.2s ease-in-out;
+                }
+        
+                .item img {
+                    max-width: 100%;
+                    height: auto;
+                }
+        
+                .item h2 {
+                    font-size: 2rem;
+                    margin-top: 15px;
+                }
+        
+                .item p {
+                    margin: 10px 0 20px;
+                }
+        
+                .item .price {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    background-color: #f44336;
+                    color: #db4c00;
+                    padding: 10px;
+                    font-size: 1.5rem;
+                    border-radius: 50%;
+                    width: 60px;
+                    height: 60px;
+                    text-align: center;
+                    line-height: 1.5;
+                }
+            .btn {
+                background-color: #000000d4;
+                color: #e28b0e;
+                border: none;
+                padding: 0.5rem 1rem;
+                font-size: 1.2rem;
+                border-radius: 0.25rem;
+                cursor: pointer;
+                transition: background-color 0.2s ease-in-out;
+              }
+              .btn:hover {
+                background-color: #00000091;
+              }
+        
+                .item .badge {
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    background-color: #f44336;
+                    color: #c34f11;
+                    padding: 10px;
+                    font-size: 1.5rem;
+                    border-radius: 50%;
+                    width: 60px;
+                    height: 60px;
+                    text-align: center;
+                    line-height: 1.5;
+                }
+            #myBtn {
+                              display: none;
+                              position: fixed;
+                              bottom: 20px;
+                              right: 30px;
+                              z-index: 99;
+                              font-size: 18px;
+                              border: none;
+                              outline: none;
+                              background-color: #00000091;
+                              color: rgb(213, 124, 0);
+                              cursor: pointer;
+                              padding: 15px;
+                              border-radius: 4px;
+                            }
+                            
+                            #myBtn:hover {
+                              background-color: #00000091;
+                            } 
+        
+                
+            </style>
+        </head>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<style>
+    #myBtn {
+      display: none; 
+      position: fixed; 
+      
+      right: 30px; 
+      z-index: 99; 
+      border: none; 
+      outline: none; 
+      background-color: #00000091; 
+      color: rgb(213, 124, 0); 
+      cursor: pointer; 
+      padding: 20px; 
+      border-radius: 100px; 
+    }
+
+    #myBtn:hover {
+      background-color: #555; 
+    }
+</style>
+
+
+
+<script>
+    
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<body>
+  
+ 
+	<div class="container">
+		<div class="header"> 
+			<h1><u> sweety food Menu</u></h1>
+			<img src="C:\Users\LEGION\Documents\arrow project\pics\a22.PNG" alt="My logo">
+            <p><b><i>fast food</i></b></p>
+    </head>
+</html>
